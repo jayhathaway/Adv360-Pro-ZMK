@@ -38,11 +38,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE  &kp N1  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp DOLLAR  &tog 1                                                               &mo 3          &kp N6  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp N0    &kp MINUS
-&kp TAB    &kp Q   &kp W             &kp E           &kp R                 &kp T       &kp CAPS                                                             &kp RIGHT_WIN  &kp Y   &kp U                  &kp I            &kp O              &kp P     &kp BSLH
-&kp ESC    &kp A   &kp S             &kp D           &kp F                 &kp G       &none     &kp LCTRL  &kp LALT            &kp RIGHT_ALT    &kp RCTRL  &none          &kp H   &kp J                  &kp K            &kp L              &kp SEMI  &kp SQT
-&mo 4      &kp Z   &kp X             &kp C           &kp V                 &kp B                            &kp LEFT            &kp RIGHT_ARROW                            &kp N   &kp M                  &kp COMMA        &kp DOT            &kp FSLH  &mo 4
-&mo 2      &none   &none             &none           &kp EQUAL                         &kp BSPC  &kp DEL    &kp DOWN_ARROW      &kp UP_ARROW     &kp ENTER  &kp SPACE              &kp MINUS              &none            &none              &none     &mo 2
+&kp GRAVE  &kp DOLLAR  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &tog 1                                                                   &mo 3          &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PERCENT  &kp HASH
+&kp TAB    &kp Q       &kp W             &kp E           &kp R                 &kp T          &kp CAPS                                                                 &kp RIGHT_WIN  &kp Y             &kp U                  &kp I            &kp O              &kp P        &kp BSLH
+&kp ESC    &kp A       &kp S             &kp D           &kp F                 &kp G          &kp ASTERISK  &kp LCTRL  &kp LALT            &kp RIGHT_ALT    &kp RCTRL  &kp EXCL       &kp H             &kp J                  &kp K            &kp L              &kp SEMI     &kp SQT
+&mo 4      &kp Z       &kp X             &kp C           &kp V                 &kp B                                   &kp LEFT            &kp RIGHT_ARROW                            &kp N             &kp M                  &kp COMMA        &kp DOT            &kp FSLH     &mo 4
+&mo 2      &none       &none             &none           &kp EQUAL                            &kp BSPC      &kp DEL    &kp DOWN_ARROW      &kp UP_ARROW     &kp ENTER  &kp SPACE                        &kp MINUS              &none            &none              &none        &mo 2
             >;
         };
 
@@ -78,10 +78,10 @@
 
         Shift {
             bindings = <
-&kp TILDE  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &trans                                      &trans  &kp N6     &kp N7     &kp N8     &kp N9     &kp N0         &trans
+&kp TILDE  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &trans                                      &trans  &kp N6     &kp N7     &kp N8     &kp N9     &kp N0         &kp AT
 &trans     &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)  &trans                                      &trans  &kp LS(Y)  &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)      &trans
 &trans     &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)  &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &kp LS(COLON)  &trans
-&trans     &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)                  &trans      &trans                  &kp LS(N)  &kp LS(M)  &trans     &trans     &trans         &trans
+&trans     &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)                  &trans      &trans                  &kp LS(N)  &kp LS(M)  &trans     &trans     &kp QUESTION   &trans
 &trans     &trans     &trans     &trans     &trans                &trans  &trans  &trans      &trans  &trans  &trans             &trans     &trans     &trans     &trans         &trans
             >;
         };
